@@ -1,7 +1,7 @@
 {
   "name": "lg-tv-adapter",
   "display_name": "LG webOS TV",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "LG webOS TV adapter for Mozilla IoT Gateway",
   "main": "index.js",
   "scripts": {
@@ -26,12 +26,14 @@
   },
   "homepage": "https://github.com/mozilla-iot/lg-tv-adapter#readme",
   "dependencies": {
-    "arp": "0.0.3",
+    "ip-regex": "^4.0.0",
     "lgtv2": "^1.4.1",
+    "local-devices": "2.0.0",
     "node-ssdp": "^4.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.12.1"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.3"
   },
   "files": [
     "LICENSE",
