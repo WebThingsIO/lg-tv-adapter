@@ -1,6 +1,6 @@
 # lg-tv-adapter
 
-LG webOS TV adapter for the [Mozilla IoT gateway](https://iot.mozilla.org).
+LG webOS TV adapter for the [Mozilla WebThings Gateway](https://iot.mozilla.org).
 
 Lets the gateway interact with webOS-based LG TVs.
 
