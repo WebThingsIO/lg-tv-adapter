@@ -1,7 +1,7 @@
 {
   "name": "lg-tv-adapter",
   "display_name": "LG webOS TV",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "LG webOS TV adapter for Mozilla WebThings Gateway",
   "main": "index.js",
   "scripts": {
@@ -26,14 +26,14 @@
   },
   "homepage": "https://github.com/mozilla-iot/lg-tv-adapter#readme",
   "dependencies": {
-    "ip-regex": "^4.0.0",
+    "ip-regex": "^4.1.0",
     "lgtv2": "^1.4.1",
     "local-devices": "2.0.0",
     "node-ssdp": "^4.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.15.3"
+    "eslint": "^5.16.0"
   },
   "files": [
     "LICENSE",
