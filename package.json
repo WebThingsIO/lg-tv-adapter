@@ -1,7 +1,7 @@
 {
   "name": "lg-tv-adapter",
   "display_name": "LG webOS TV",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "LG webOS TV adapter for Mozilla WebThings Gateway",
   "main": "index.js",
   "scripts": {
