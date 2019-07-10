@@ -14,4 +14,4 @@ After installing the add-on, it will search for devices on the network and autom
 
 ## Notes
 
-If you'd like to turn the TV on with the gateway, you'll need to turn on Mobile TV in the TV's settings, which enables Wake-on-LAN functionality. After doing so, you can use the Wake-on-LAN add-on for the gateway.
+If you'd like to turn the TV on with the gateway, you'll need to turn on Mobile TV in the TV's settings, which enables Wake-on-LAN functionality.
