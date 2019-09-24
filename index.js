@@ -2,6 +2,6 @@
 
 const LgTvAdapter = require('./lib/lg-tv-adapter');
 
-module.exports = (addonManager, manifest) => {
-  new LgTvAdapter(addonManager, manifest);
+module.exports = (addonManager) => {
+  new LgTvAdapter(addonManager);
 };

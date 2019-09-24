@@ -1,0 +1,40 @@
+{
+  "author": "Mozilla IoT",
+  "description": "LG webOS TV adapter for Mozilla WebThings Gateway",
+  "gateway_specific_settings": {
+    "webthings": {
+      "exec": "{nodeLoader} {path}",
+      "primary_type": "adapter",
+      "strict_max_version": "*",
+      "strict_min_version": "0.10.0"
+    }
+  },
+  "homepage_url": "https://github.com/mozilla-iot/lg-tv-adapter#readme",
+  "id": "lg-tv-adapter",
+  "license": "MPL-2.0",
+  "manifest_version": 1,
+  "name": "LG webOS TV",
+  "options": {
+    "default": {
+      "devices": []
+    },
+    "schema": {
+      "type": "object",
+      "required": [
+        "devices"
+      ],
+      "properties": {
+        "devices": {
+          "type": "array",
+          "description": "List of IP addresses of TVs",
+          "items": {
+            "type": "string",
+            "description": "IP address"
+          }
+        }
+      }
+    }
+  },
+  "short_name": "LG webOS TV",
+  "version": "0.3.0"
+}

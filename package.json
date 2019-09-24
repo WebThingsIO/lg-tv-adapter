@@ -1,7 +1,7 @@
 {
   "name": "lg-tv-adapter",
   "display_name": "LG webOS TV",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "LG webOS TV adapter for Mozilla WebThings Gateway",
   "main": "index.js",
   "scripts": {
@@ -29,16 +29,19 @@
     "ip-regex": "^4.1.0",
     "lgtv2": "^1.4.1",
     "local-devices": "2.0.0",
+    "mkdirp": "^0.5.1",
+    "node-persist": "^3.0.5",
     "node-ssdp": "^4.0.0",
     "ping": "^0.2.2",
     "wol": "^1.0.6"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.2",
-    "eslint": "^6.0.1"
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0"
   },
   "files": [
     "LICENSE",
+    "README.md",
     "SHA256SUMS",
     "index.js",
     "lib/lg-tv-adapter.js",
@@ -46,6 +49,7 @@
     "lib/lg-tv-device.js",
     "lib/lg-tv-notifier.js",
     "lib/lg-tv-property.js",
+    "manifest.json",
     "node_modules"
   ],
   "moziot": {
@@ -66,8 +70,10 @@
       "properties": {
         "devices": {
           "type": "array",
+          "description": "List of IP addresses of TVs",
           "items": {
-            "type": "string"
+            "type": "string",
+            "description": "IP address"
           }
         }
       }
