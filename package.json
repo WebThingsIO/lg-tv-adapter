@@ -1,7 +1,7 @@
 {
   "name": "lg-tv-adapter",
   "display_name": "LG webOS TV",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "LG webOS TV adapter for Mozilla WebThings Gateway",
   "main": "index.js",
   "scripts": {
@@ -33,11 +33,11 @@
     "node-persist": "^3.0.5",
     "node-ssdp": "^4.0.0",
     "ping": "^0.2.2",
-    "wol": "^1.0.6"
+    "wol": "^1.0.7"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.4.0"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0"
   },
   "files": [
     "LICENSE",
